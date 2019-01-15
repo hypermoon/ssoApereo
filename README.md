@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![][casimg]
 # Central Authentication Service (CAS)
 [![ghit.me](https://ghit.me/badge.svg?repo=apereo/cas)](https://ghit.me/repo/apereo/cas)
@@ -69,3 +70,6 @@ the project. Utilize the [WAR Overlay method][overlay] instead to build and depl
 [cassupport]: https://apereo.github.io/cas/Support.html
 [casgitter]: https://gitter.im/apereo/cas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
+=======
+cas
+>>>>>>> 5964211106e9e2f02aa41016034b01549ff2273c
