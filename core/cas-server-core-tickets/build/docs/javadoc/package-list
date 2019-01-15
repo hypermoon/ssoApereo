@@ -1,0 +1,7 @@
+org.apereo.cas.config
+org.apereo.cas.ticket
+org.apereo.cas.ticket.factory
+org.apereo.cas.ticket.proxy.support
+org.apereo.cas.ticket.registry
+org.apereo.cas.ticket.support
+org.apereo.cas.util

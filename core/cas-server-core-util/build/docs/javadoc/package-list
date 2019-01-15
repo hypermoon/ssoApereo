@@ -1,0 +1,13 @@
+org.apereo.cas
+org.apereo.cas.config
+org.apereo.cas.config.support
+org.apereo.cas.util
+org.apereo.cas.util.cipher
+org.apereo.cas.util.crypto
+org.apereo.cas.util.gen
+org.apereo.cas.util.http
+org.apereo.cas.util.io
+org.apereo.cas.util.serialization
+org.apereo.cas.util.spring
+org.apereo.cas.util.spring.boot
+org.apereo.cas.util.transforms

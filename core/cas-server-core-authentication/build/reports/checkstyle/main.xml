@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.6.1">
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/AbstractAuthenticationHandler.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/AbstractAuthenticationManager.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/AbstractCredential.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/AcceptUsersAuthenticationHandler.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/AuthenticationCredentialsLocalBinder.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/BasicCredentialMetaData.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/BasicIdentifiableCredential.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthentication.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthenticationBuilder.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthenticationContextValidator.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthenticationEventExecutionPlan.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthenticationResult.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthenticationResultBuilder.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthenticationServiceSelectionPlan.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthenticationServiceSelectionStrategy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthenticationSystemSupport.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultAuthenticationTransactionManager.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultCasSslContext.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultHandlerResult.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/DefaultPrincipalElectionStrategy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/HttpBasedServiceCredential.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/PolicyBasedAuthenticationManager.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/PseudoPlatformTransactionManager.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/RegisteredServiceAuthenticationHandlerResolver.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/RememberMeUsernamePasswordCredential.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/UsernamePasswordCredential.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/adaptive/DefaultAdaptiveAuthenticationPolicy.java">
+<error line="57" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="58" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/exceptions/AccountDisabledException.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/exceptions/AccountPasswordMustChangeException.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/exceptions/InvalidLoginLocationException.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/exceptions/InvalidLoginTimeException.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/exceptions/MixedPrincipalException.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/exceptions/UnresolvedPrincipalException.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/handler/package-info.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/handler/support/AbstractPreAndPostProcessingAuthenticationHandler.java">
+<error line="69" severity="error" message="Comment has incorrect indentation level 9, expected is 8, indentation should be the same level as line 75." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="72" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="74" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="74" severity="error" message="Comment has incorrect indentation level 7, expected is 8, indentation should be the same level as line 75." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="75" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/handler/support/AbstractUsernamePasswordAuthenticationHandler.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/handler/support/HttpBasedServiceCredentialsAuthenticationHandler.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/handler/support/JaasAuthenticationHandler.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/handler/support/package-info.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/metadata/AuthenticationContextAttributeMetaDataPopulator.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/metadata/BaseAuthenticationMetadataPopulator.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/metadata/CacheCredentialsCipherExecutor.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/metadata/CacheCredentialsMetaDataPopulator.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/metadata/RememberMeAuthenticationMetaDataPopulator.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/metadata/SuccessfulHandlerMetaDataPopulator.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/package-info.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/policy/AcceptAnyAuthenticationPolicyFactory.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/policy/AllAuthenticationPolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/policy/AnyAuthenticationPolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/policy/NotPreventedAuthenticationPolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/policy/RequiredHandlerAuthenticationPolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/policy/RequiredHandlerAuthenticationPolicyFactory.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/DefaultPrincipalAttributesRepository.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/DefaultPrincipalFactory.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/NullPrincipal.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/SimplePrincipal.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/cache/AbstractPrincipalAttributesRepository.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/cache/CachingPrincipalAttributesRepository.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/package-info.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/resolvers/ChainingPrincipalResolver.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/resolvers/EchoingPrincipalResolver.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/resolvers/InternalGroovyScriptDao.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/resolvers/PersonDirectoryPrincipalResolver.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/principal/resolvers/ProxyingPrincipalResolver.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/support/password/PasswordExpiringWarningMessageDescriptor.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/authentication/support/password/PasswordPolicyConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/config/CasCoreAuthenticationConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/config/CasCoreAuthenticationHandlersConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/config/CasCoreAuthenticationMetadataConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/config/CasCoreAuthenticationPolicyConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/config/CasCoreAuthenticationPrincipalConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/config/CasCoreAuthenticationSupportConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/config/CasCoreHttpConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/config/CasPersonDirectoryConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/AbstractMultifactorAuthenticationProvider.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/AbstractRegisteredServiceAttributeReleasePolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/ChainingAttributeReleasePolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/DefaultMultifactorAuthenticationProviderBypass.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/DefaultVariegatedMultifactorAuthenticationProvider.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/DenyAllAttributeReleasePolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/GroovyScriptAttributeReleasePolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/MultifactorAuthenticationProviderBypass.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/ReturnAllAttributeReleasePolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/ReturnAllowedAttributeReleasePolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/ReturnMappedAttributeReleasePolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/ScriptedRegisteredServiceAttributeReleasePolicy.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/services/ServiceContext.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-authentication/src/main/java/org/apereo/cas/ticket/UnsatisfiedAuthenticationPolicyException.java">
+</file>
+</checkstyle>

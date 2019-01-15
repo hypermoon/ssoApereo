@@ -1,0 +1,99 @@
+package org.apereo.cas.web.flow;
+
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import org.apereo.cas.CentralAuthenticationService;
+import org.apereo.cas.DESCoder;
+import org.apereo.cas.web.support.WebUtils;
+import org.springframework.webflow.execution.Event;
+import org.springframework.webflow.action.AbstractAction;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.webflow.execution.RequestContext;
+import javax.validation.constraints.NotNull;
+
+@Component("modeCheckAction")
+public final class ModeCheckAction extends AbstractAction {  
+
+ public static final String NORMAL = "normal";
+ public static final String RLOGIN = "rlogin";
+ public static final String FOURALOGIN = "oamlog";
+
+ public Event doExecute(final RequestContext context) throws Exception {
+   final HttpServletRequest request = 
+       WebUtils.getHttpServletRequest(context);
+   
+   final HttpServletResponse response = 
+       WebUtils.getHttpServletResponse(context);
+   
+   String mode = request.getParameter("oamlog");
+   String contxt = request.getContextPath();
+   String getqs = request.getQueryString();
+
+
+   System.out.println("--getQueryString : " + getqs);
+   String strurl = request.getRequestURL().toString();
+   
+   int ishostchanged = 0;
+
+   //   ishostchanged= strurl.indexOf("webtest1.ccccltd.cn");
+   
+   System.out.println("--- getRequestURL is : " + strurl);
+   System.out.println("--- getQueryString is : " + getqs);
+   System.out.println("--- getContextpath is : " + contxt);
+   System.out.println("--- getparameter is : " + mode);
+
+   if( ishostchanged == -1 )   //no such string
+   {
+         ;
+   }
+   else
+   {
+   //   strurl.replace("webtest1.ccccltd.cn:7778/test?","sdc-ssotest.cccc-sdc.com/cas/login?mode=rlogin&" );
+   }
+
+
+   System.out.println("--5.3.2--HHHHH mode rlogin HHHHH:--5.3.2-- " + mode);
+   System.out.println("--AAAAAAAAAA OAM_REMOTE_USER--AAA ");
+   String EMPLID = request.getHeader("OAM_REMOTE_USERs");
+   String desName = null;
+   if(EMPLID == null)
+    {
+          System.out.println("----EMPLID is null");
+    }
+    else
+    {
+          System.out.println("----EMPLID is :"+ EMPLID);
+       try{ 
+          desName = DESCoder.decrypt(EMPLID);
+          System.out.println("----After Des Name is :"+ desName);
+          
+          }catch(Exception e){
+          e.printStackTrace();
+          }
+    }
+
+
+   System.out.println("--BBBBBBBBBB OAM_REMOTE_USER--BBB ");
+ 
+   if(ishostchanged != -1)
+   {  
+//       strurl += getqs; 
+//       System.out.println("--sendRedirect RESPONSE URL is : " + strurl);
+//       response.sendRedirect(strurl);
+   }
+ 
+         if(mode!=null&&mode.equals("rlogin"))
+         {
+             context.getFlowScope().put("mode", mode);
+             return new Event(this, FOURALOGIN);
+          }
+             return new Event(this, NORMAL);
+           //  return new Event(this, FOURALOGIN);
+
+
+
+      }
+    
+}
+  

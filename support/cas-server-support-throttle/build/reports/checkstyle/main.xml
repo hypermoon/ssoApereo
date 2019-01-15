@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.6.1">
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/main/java/org/apereo/cas/web/support/AbstractInMemoryThrottledSubmissionHandlerInterceptorAdapter.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/main/java/org/apereo/cas/web/support/AbstractThrottledSubmissionHandlerInterceptorAdapter.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/main/java/org/apereo/cas/web/support/InMemoryThrottledSubmissionByIpAddressAndUsernameHandlerInterceptorAdapter.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/main/java/org/apereo/cas/web/support/InMemoryThrottledSubmissionByIpAddressHandlerInterceptorAdapter.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/main/java/org/apereo/cas/web/support/InMemoryThrottledSubmissionCleaner.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/main/java/org/apereo/cas/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/main/java/org/apereo/cas/web/support/ThrottledSubmissionHandlerInterceptor.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/main/java/org/apereo/cas/web/support/config/CasThrottlingConfiguration.java">
+</file>
+</checkstyle>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.6.1">
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/test/java/org/apereo/cas/AllTestsSuite.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/test/java/org/apereo/cas/web/support/AbstractInMemoryThrottledSubmissionHandlerInterceptorAdapterTests.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/test/java/org/apereo/cas/web/support/AbstractThrottledSubmissionHandlerInterceptorAdapterTests.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/test/java/org/apereo/cas/web/support/InMemoryThrottledSubmissionByIpAddressAndUsernameHandlerInterceptorAdapterTests.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-throttle/src/test/java/org/apereo/cas/web/support/InMemoryThrottledSubmissionByIpAddressHandlerInterceptorAdapterTests.java">
+</file>
+</checkstyle>

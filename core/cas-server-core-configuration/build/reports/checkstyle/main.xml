@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.6.1">
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/CasConfigurationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/CasConfigurationPropertiesEnvironmentManager.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/config/CasCoreBootstrapStandaloneConfiguration.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/CasServerProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/HostProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/audit/AuditProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/AdaptiveAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/AuthenticationExceptionsProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/AuthenticationPolicyProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/AuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/HttpClientProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/PasswordEncoderProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/PasswordPolicyProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/PersonDirPrincipalResolverProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/PrincipalAttributesProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/PrincipalTransformationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/authentication/RiskBasedAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/events/EventsProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/logout/LogoutProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/metrics/MetricsProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/monitor/MonitorProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/rest/RestProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/services/ServiceRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/slo/SloProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/sso/SsoProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/ticket/ProxyGrantingTicketProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/ticket/ProxyTicketProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/ticket/ServiceTicketProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/ticket/SigningEncryptionProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/ticket/TicketGrantingTicketProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/ticket/registry/TicketRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/util/CryptographyProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/util/TicketProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/web/MessageBundleProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/web/security/AdminPagesSecurityProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/web/security/HttpWebRequestProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/core/web/view/ViewProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/ConnectionPoolingProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/analytics/GoogleAnalyticsProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/aup/AcceptableUsagePolicyProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/captcha/GoogleRecaptchaProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/clearpass/ClearpassProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/consent/ConsentProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/cookie/CookieProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/cookie/TicketGrantingCookieProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/cookie/WarningCookieProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/couchbase/serviceregistry/CouchbaseServiceRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/couchbase/ticketregistry/CouchbaseTicketRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/digest/DigestProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/dynamodb/AbstractDynamoDbProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/dynamodb/DynamoDbServiceRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/dynamodb/DynamoDbTicketRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/ehcache/EhcacheProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/generic/AcceptAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/generic/FileAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/generic/RejectAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/generic/RemoteAddressAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/generic/ShiroAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/geo/googlemaps/GoogleMapsProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/geo/maxmind/MaxmindProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/gua/GraphicalUserAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/hazelcast/HazelcastProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/ignite/IgniteProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/infinispan/InfinispanProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/jaas/JaasAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/jdbc/JdbcAuthenticationProperties.java">
+<error line="237" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="240" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="240" severity="error" message="Comment has incorrect indentation level 12, expected is 13, indentation should be the same level as line 242." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/jpa/AbstractJpaProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/jpa/DatabaseProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/jpa/JpaConfigDataHolder.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/jpa/serviceregistry/JpaServiceRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/jpa/ticketregistry/JpaTicketRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/ldap/AbstractLdapAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/ldap/AbstractLdapProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/ldap/LdapAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/ldap/LdapAuthorizationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/ldap/serviceregistry/LdapServiceRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/memcached/MemcachedTicketRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/mfa/MultifactorAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/mongo/AbstractMongoClientProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/mongo/AbstractMongoInstanceProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/mongo/MongoAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/mongo/serviceregistry/MongoServiceRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/mongo/ticketregistry/MongoTicketRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/ntlm/NtlmProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/oauth/OAuthProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/oidc/OidcProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/openid/OpenIdProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/pac4j/Pac4jProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/pm/PasswordManagementProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/radius/RadiusProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/redis/RedisTicketRegistryProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/rest/RestAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/saml/SamlCore.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/saml/googleapps/GoogleAppsProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/saml/idp/SamlIdPProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/saml/mdui/SamlMetadataUIProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/saml/shibboleth/ShibbolethAttributeResolverProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/saml/shibboleth/ShibbolethIdPProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/saml/sps/AbstractSamlSPProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/saml/sps/SamlServiceProviderProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/scim/ScimProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/sms/ClickatellProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/sms/SmsProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/sms/TextMagicProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/sms/TwillioProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/spnego/SpnegoProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/stormpath/StormpathProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/surrogate/SurrogateAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/themes/ThemeProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/throttle/ThrottleProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/token/TokenAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/trusted/TrustedAuthenticationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/wsfed/WsFederationDelegationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/wsfed/WsFederationProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/support/x509/X509Properties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/webapp/LocaleProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/webapp/WebflowProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/model/webapp/mgmt/ManagementWebappProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/support/AbstractConfigProperties.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/support/Beans.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/support/CasConfigurationJasyptDecryptor.java">
+</file>
+<file name="/usr/anson/cassource/cas5.1.3/cas/core/cas-server-core-configuration/src/main/java/org/apereo/cas/configuration/support/DataSourceProxy.java">
+</file>
+</checkstyle>

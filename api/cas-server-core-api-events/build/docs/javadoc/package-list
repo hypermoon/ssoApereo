@@ -1,0 +1,8 @@
+org.apereo.cas.support.events
+org.apereo.cas.support.events.audit
+org.apereo.cas.support.events.authentication
+org.apereo.cas.support.events.authentication.adaptive
+org.apereo.cas.support.events.config
+org.apereo.cas.support.events.dao
+org.apereo.cas.support.events.service
+org.apereo.cas.support.events.ticket

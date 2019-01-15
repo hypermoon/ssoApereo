@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apereo.cas.adaptors.jdbc.JdbcConfigurationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-07T05:56:40" hostname="cas.cccc-cdc.com" time="0.175">
+  <properties/>
+  <testcase name="verifyConfiguration" classname="org.apereo.cas.adaptors.jdbc.JdbcConfigurationTests" time="0.175"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.3.RELEASE)
+
+2018-08-07 13:56:40,455 WARN [org.apereo.cas.config.CasCoreServicesConfiguration] - <Runtime memory is used as the persistence storage for retrieving and persisting service definitions. Changes that are made to service definitions during runtime WILL be LOST upon container restarts.>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,5 @@
+org.apereo.cas.config
+org.apereo.cas.services.web.view
+org.apereo.cas.web
+org.apereo.cas.web.support
+org.apereo.cas.web.view

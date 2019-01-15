@@ -1,0 +1,5 @@
+org.apereo.cas.authentication
+org.apereo.cas.authentication.adaptive
+org.apereo.cas.authentication.adaptive.geo
+org.apereo.cas.authentication.handler
+org.apereo.cas.authentication.principal

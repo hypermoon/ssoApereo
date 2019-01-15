@@ -1,0 +1,13 @@
+org.apereo.cas.authentication
+org.apereo.cas.authentication.adaptive
+org.apereo.cas.authentication.exceptions
+org.apereo.cas.authentication.handler.support
+org.apereo.cas.authentication.metadata
+org.apereo.cas.authentication.policy
+org.apereo.cas.authentication.principal
+org.apereo.cas.authentication.principal.cache
+org.apereo.cas.authentication.principal.resolvers
+org.apereo.cas.authentication.support.password
+org.apereo.cas.config
+org.apereo.cas.services
+org.apereo.cas.ticket

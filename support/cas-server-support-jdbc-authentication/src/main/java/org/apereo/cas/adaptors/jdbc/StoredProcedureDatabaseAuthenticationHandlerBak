@@ -1,0 +1,138 @@
+/**
+ * Licensed to Jasig under one or more contributor license
+ * agreements. See the NOTICE file distributed with this work
+ * for additional information regarding copyright ownership.
+ * Jasig licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file
+ * except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on
+ * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+package org.apereo.cas.adaptors.jdbc;
+
+//import static java.lang.System.out;
+import java.util.ArrayList;
+import java.util.Map;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Types;
+import javax.validation.constraints.NotNull;
+import org.apereo.cas.authentication.HandlerResult;
+import org.apereo.cas.authentication.PreventedException;
+import org.apereo.cas.authentication.AuthenticationException;
+import org.apereo.cas.authentication.UsernamePasswordCredential;
+import org.apereo.cas.authentication.principal.PrincipalFactory;
+import org.apereo.cas.services.ServicesManager;
+import org.springframework.dao.DataAccessException;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.simple.SimpleJdbcCall;
+//import org.springframework.jdbc.core.simple.ParameterizedRowMapper;
+//import org.springframework.jdbc.core.simple.ParameterizedBeanPropertyRowMapper;
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.SqlParameter;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
+import javax.sql.DataSource;
+import java.security.GeneralSecurityException;
+
+
+/**
+ * Provides the ability to authenticate a user by passing the username and password
+ * to a database stored procedure. Matches the first column and first row of the
+ * result set against a provided ReturnValue.
+ * Default password translator is plaintext translator.
+ * 
+ * @author John Gasper
+ * @version $Revision:  $ $Date: $  
+ * @since 3.4.8
+ */
+public class StoredProcedureDatabaseAuthenticationHandler extends AbstractJdbcUsernamePasswordAuthenticationHandler {
+
+   private  final String procedureName;
+   private  final String usernameParameterName;
+   private  final String passwordParameterName;
+   private  final String successReturnValue;
+  
+   public StoredProcedureDatabaseAuthenticationHandler(final String name, 
+                                                       final ServicesManager servicesManager,
+                                                       final PrincipalFactory principalFactory,
+                                                       final Integer order,
+                                                       final DataSource dataSource,
+                                                       final String procedureName,
+                                                       final String usernameParameterName,
+                                                       final String passwordParameterName,
+                                                       final String successReturnValue
+                                                      ){ 
+    super(name,servicesManager,principalFactory,order,dataSource);
+    this.procedureName = procedureName;
+    this.usernameParameterName = usernameParameterName;
+    this.passwordParameterName = passwordParameterName;
+    this.successReturnValue    = successReturnValue;
+    System.out.println("inital start!");               
+         
+
+}
+    @Override
+    protected  HandlerResult authenticateUsernamePasswordInternal(final UsernamePasswordCredential credentials ,final String originPassword)
+            throws GeneralSecurityException, PreventedException {
+
+        final String username = credentials.getUsername();
+        final String password = credentials.getPassword();
+        final String encryptedPassword = credentials.getPassword();  //this.getPasswordEncoder().encode(password);
+        
+        MapSqlParameterSource params = new MapSqlParameterSource()
+                .addValue(this.usernameParameterName, username, Types.VARCHAR)
+                .addValue(this.passwordParameterName, encryptedPassword, Types.VARCHAR);
+
+        SimpleJdbcCall sp = new SimpleJdbcCall(this.getDataSource())
+                .withoutProcedureColumnMetaDataAccess()
+                .withProcedureName(procedureName)
+                .declareParameters(new SqlParameter(this.usernameParameterName, Types.VARCHAR))
+                .declareParameters(new SqlParameter(this.passwordParameterName, Types.VARCHAR))
+                .returningResultSet("result1", new RowMapper<String>() {
+            @Override
+            public String mapRow(ResultSet rs, int rowNum)
+                    throws SQLException {
+                return rs.getString(1);
+            }
+        });
+        
+       try {
+            Map<String, Object> results = sp.execute(params);
+
+            ArrayList result1 = (ArrayList) results.get("result1");
+            String dbResult = (String) result1.get(0);
+           
+              System.out.println("2222222password: " + password);               
+              System.out.println("5555555Encryptpassword: " + encryptedPassword);               
+              System.out.println("0000000dbResult: " + dbResult);               
+              System.out.println("6666666succRet: " + successReturnValue);               
+
+             if(dbResult.equalsIgnoreCase(this.successReturnValue)) //true is equals
+             {  
+                System.out.println("1111111Equals");
+                return createHandlerResult(credentials, this.principalFactory.createPrincipal(username), null);
+             }
+             else                                                   //false is unequals
+             {
+                System.out.println("333333333UnEquals");
+                return null;
+             }
+
+
+        }
+        catch (DataAccessException ex) {
+          
+             return null;
+        }
+    }
+
+}

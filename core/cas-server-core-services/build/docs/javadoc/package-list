@@ -1,0 +1,8 @@
+org.apereo.cas.authentication
+org.apereo.cas.authentication.principal
+org.apereo.cas.authentication.support
+org.apereo.cas.config
+org.apereo.cas.config.support
+org.apereo.cas.services
+org.apereo.cas.services.support
+org.apereo.cas.util.services
