@@ -143,26 +143,30 @@ public class StoredProcedureDatabaseAuthenticationHandler extends AbstractJdbcUs
         String getqsnew = request.getQueryString();
         
         String strurl2 = request.getRequestURL().toString();
-        System.out.println("----(~~~~~~~~GET REQUEST URL is ~~~~~~~): " + strurl2);
-         
+        System.out.println("----(~~~~~~~~GET REQUEST URL is ~~~~~~~): " + strurl2);         
         String EMPLID = request.getHeader("OAM_REMOTE_USERs");
+        
+        String strWXToken = null;
+               strWXToken = request.getParameter("WX_TOKEN");
        
+        
         final HttpServletResponse response = WebUtils.getHttpServletResponse();
         
-
-        System.out.println("---dddddddd1111  here is string parameter----- : " + getqsnew );
-        System.out.println("---dddddddd222  here is OAM_REMOTE_USER----- : " + EMPLID );
+        System.out.println("---dddddddd1111  here is string parameter  ----- : " + getqsnew );
+        System.out.println("---WWWWWWXXXXXX  here is wxtoken parameter  ----- : " + strWXToken );
+  
+        System.out.println("---dddddddd2222  here is OAM_REMOTE_USER   ----- : " + EMPLID );
         String desName=null;    
         if( EMPLID  != null && EMPLID.length() !=0 )
         {
          
            System.out.println("----remote flow ------");
            try{
-                desName = DESCoder.decrypt(EMPLID);
+                 desName = DESCoder.decrypt(EMPLID);
                  username = desName;
                  credentials.setUsername(desName);
                  encryptedPassword="1234567890123456789012345678901234567890123456789012345678901234";
-                System.out.println("----After Des Name is:" + desName);
+                 System.out.println("----After Des Name is:" + desName);
               }
            catch(Exception e)
               {
@@ -172,13 +176,68 @@ public class StoredProcedureDatabaseAuthenticationHandler extends AbstractJdbcUs
         }
         else
         {
-           System.out.println("----normal flow ------");
+       
+          try{
+              int  len;
+              int  substrlen = -1;
+              int  bisremote = -1;            //added for wx scan login
+              String   realuser;
+              String   updatename;
+               
+              String   psdspecialforwx = "Wxscan123#@!0";
+
+              if(strWXToken != null && !strWXToken.equals(""))
+              {
+                 if(strWXToken.equals(psdspecialforwx))   //equal
+                 {
+                    System.out.println("---specialpsd find !!-wx login_flow ------");
+                    bisremote = 1;
+                  }
+              }
+    
+ 
+              if(getqsnew != null)
+              {
+                 //len =  getqsnew.length();
+                 substrlen = getqsnew.indexOf("realtoken");
+                 // bisremote = getqsnew.indexOf("mode=rlogin");
+              }
+             
+             if(bisremote >= 0)  // wxlogin
+              {
+                //credentials.setUsername(username);
+                encryptedPassword="1234567890123456789012345678901234567890123456789012345678901234";
+                System.out.println("----WX login flow ------");
+                System.out.println("----The jiao jian tong WX Login name is:  ------ " + username);
+ 
+              }
+          
+              //realtoken(added for ccccltd4A use,noused)
+              if(substrlen > 0 ) 
+              {   
+                realuser = getqsnew.substring(substrlen+ 10);
+                System.out.println("------update append str is  ------ " + realuser);
+         
+                updatename = DESCoder.decrypt(realuser);
+                username = updatename;
+                credentials.setUsername(username);
+                encryptedPassword="1234567890123456789012345678901234567890123456789012345678901234";
+                System.out.println("----update append after name is  ------ " + username);
+                }  
+              else        
+              {
+                System.out.println("----normal flow ------");
+              }
+          }
+          catch(Exception e)
+          {
+                e.printStackTrace();
+          }
         }        
 
-        this.clientip =  getrealIPAddress(request); 
-        System.out.println("----ffffffff---!clientip is: " + this.clientip);
-
-          System.out.println("---- user name before store is ------" + username);
+                 this.clientip =  getrealIPAddress(request); 
+                 System.out.println("----ffffffff---!clientip is: " + this.clientip);
+                 System.out.println("---- user name before store is ------" + username);
 
         MapSqlParameterSource params = new MapSqlParameterSource()
                 .addValue(this.usernameParameterName, username, Types.VARCHAR)

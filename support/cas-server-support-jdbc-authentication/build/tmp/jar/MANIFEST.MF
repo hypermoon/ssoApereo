@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Implementation-Title: cas-server-support-jdbc-authentication
 Implementation-Version: 5.1.10-SNAPSHOT
-Implementation-Date: 2018-12-29T15:04:32.423+08:00[Asia/Shanghai]
+Implementation-Date: 2019-11-26T15:39:08.949+08:00[Asia/Shanghai]
 Created-By: org.apereo.cas
-Specification-Version: 41bb6e4dfb8382c6756b3a44aff5831e34483f27
+Specification-Version: c1aa01e903222be90a6f72c8fb930fa220556f65
 Implementation-Vendor: org.apereo.cas
 

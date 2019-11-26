@@ -1,170 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="7.6.1">
-<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/AbstractJdbcUsernamePasswordAuthenticationHandler.java">
+<file name="/usr/anson/cassource/cas5.1.3new/ssoApereo/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/AbstractJdbcUsernamePasswordAuthenticationHandler.java">
 </file>
-<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/BindModeSearchDatabaseAuthenticationHandler.java">
+<file name="/usr/anson/cassource/cas5.1.3new/ssoApereo/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/BindModeSearchDatabaseAuthenticationHandler.java">
 </file>
-<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/QueryAndEncodeDatabaseAuthenticationHandler.java">
+<file name="/usr/anson/cassource/cas5.1.3new/ssoApereo/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/QueryAndEncodeDatabaseAuthenticationHandler.java">
 </file>
-<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/QueryDatabaseAuthenticationHandler.java">
+<file name="/usr/anson/cassource/cas5.1.3new/ssoApereo/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/QueryDatabaseAuthenticationHandler.java">
 </file>
-<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/SearchModeSearchDatabaseAuthenticationHandler.java">
+<file name="/usr/anson/cassource/cas5.1.3new/ssoApereo/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/SearchModeSearchDatabaseAuthenticationHandler.java">
 </file>
-<file name="/usr/anson/cassource/cas5.1.3/cas/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/StoredProcedureDatabaseAuthenticationHandler.java">
+<file name="/usr/anson/cassource/cas5.1.3new/ssoApereo/support/cas-server-support-jdbc-authentication/src/main/java/org/apereo/cas/adaptors/jdbc/StoredProcedureDatabaseAuthenticationHandler.java">
 <error line="24" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="27" column="8" severity="error" message="Unused import - java.sql.ResultSet." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="28" column="8" severity="error" message="Unused import - java.sql.SQLException." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="30" column="8" severity="error" message="Unused import - javax.validation.constraints.NotNull." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="33" column="8" severity="error" message="Unused import - org.apereo.cas.authentication.AuthenticationException." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="49" column="8" severity="error" message="Unused import - org.springframework.jdbc.core.RowMapper." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="27" column="8" severity="error" message="无用导入 - java.sql.ResultSet 。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="28" column="8" severity="error" message="无用导入 - java.sql.SQLException 。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="30" column="8" severity="error" message="无用导入 - javax.validation.constraints.NotNull 。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="33" column="8" severity="error" message="无用导入 - org.apereo.cas.authentication.AuthenticationException 。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="49" column="8" severity="error" message="无用导入 - org.springframework.jdbc.core.RowMapper 。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
 <error line="69" severity="error" message="Invalid JavaDoc @version tag." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="74" column="12" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="75" column="12" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="76" column="12" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="78" column="13" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="79" column="12" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="80" column="12" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="81" column="13" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="82" column="12" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="83" column="12" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="85" column="12" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="103" column="16" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="103" column="32" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="103" column="49" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="103" column="55" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="107" column="31" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="108" column="31" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="109" column="31" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="110" column="31" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="111" column="31" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="112" column="31" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="113" column="31" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="117" column="5" severity="warning" message="Method length is 179 lines (max allowed is 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
-<error line="118" column="15" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="118" column="111" severity="error" message="&apos;,&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"/>
-<error line="118" column="113" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="74" column="12" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="75" column="12" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="76" column="12" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="78" column="13" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="79" column="12" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="80" column="12" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="81" column="13" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="82" column="12" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="83" column="12" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="85" column="12" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="103" column="16" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="103" column="32" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="103" column="49" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="103" column="55" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="107" column="31" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="108" column="31" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="109" column="31" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="110" column="31" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="111" column="31" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="112" column="31" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="113" column="31" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="117" column="5" severity="warning" message="方法 238 行（最多： 150 行）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="118" column="15" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="118" column="111" severity="error" message="&apos;,&apos; 前不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"/>
+<error line="118" column="113" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
 <error line="127" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
 <error line="128" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
 <error line="129" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
 <error line="130" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
 <error line="139" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="143" column="16" severity="error" message="Variable &apos;getqsnew&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="145" column="16" severity="error" message="Variable &apos;strurl2&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="143" column="16" severity="error" message="变量 &apos;getqsnew&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="145" column="16" severity="error" message="变量 &apos;strurl2&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
 <error line="146" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="148" severity="warning" message="Abbreviation in name &apos;EMPLID&apos; must contain no more than &apos;4&apos; consecutive capital letters." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
-<error line="148" column="16" severity="error" message="Name &apos;EMPLID&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
-<error line="148" column="16" severity="error" message="Variable &apos;EMPLID&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="153" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="153" column="90" severity="error" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
-<error line="154" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="154" column="86" severity="error" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
-<error line="156" column="11" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="156" column="12" severity="error" message="&apos;(&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
-<error line="156" column="20" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="156" column="51" severity="error" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
-<error line="157" column="9" severity="error" message="&apos;{&apos; at column 9 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="159" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="165" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="166" column="15" severity="error" message="&apos;}&apos; at column 15 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
-<error line="167" column="18" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="167" column="28" severity="error" message="Variable &apos;e&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="168" column="15" severity="error" message="&apos;{&apos; at column 15 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="169" severity="error" message="Avoid sending stack traces to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="172" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
-<error line="174" column="9" severity="error" message="&apos;{&apos; at column 9 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="175" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="178" column="25" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="179" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="181" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="183" column="31" severity="error" message="Variable &apos;params&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="194" column="24" severity="error" message="Variable &apos;sp&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="147" severity="warning" message="名称 &apos;EMPLID&apos; 中不能出现超过 &apos;4&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="147" column="16" severity="error" message="变量 &apos;EMPLID&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="147" column="16" severity="error" message="名称 &apos;EMPLID&apos; 必须匹配表达式： &apos;^[a-z][a-zA-Z0-9]*$&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="155" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="155" column="92" severity="error" message="&apos;)&apos; 前不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="156" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="156" column="95" severity="error" message="&apos;)&apos; 前不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="158" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="158" column="90" severity="error" message="&apos;)&apos; 前不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="160" column="11" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="160" column="12" severity="error" message="&apos;(&apos; 后不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="160" column="20" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="160" column="51" severity="error" message="&apos;)&apos; 前不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="161" column="9" severity="error" message="第 9 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="163" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="169" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="170" column="15" severity="error" message="第 15 个字符 &apos;}&apos;应该与当前多代码块的下一部分 （if/else-if/else, do/while 或 try/catch/finally）位于同一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="171" column="18" severity="error" message="参数： e 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="171" column="28" severity="error" message="变量 &apos;e&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="172" column="15" severity="error" message="第 15 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="173" severity="error" message="Avoid sending stack traces to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="176" column="9" severity="error" message="第 9 个字符 &apos;}&apos;应该与当前多代码块的下一部分 （if/else-if/else, do/while 或 try/catch/finally）位于同一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="178" column="9" severity="error" message="第 9 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="181" column="19" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="181" column="20" severity="error" message="变量 &apos;len&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="182" column="19" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="183" column="19" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="183" column="46" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="184" column="23" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="184" column="24" severity="error" message="变量 &apos;realuser&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="185" column="23" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="185" column="24" severity="error" message="变量 &apos;updatename&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="187" column="23" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="187" column="24" severity="error" message="变量 &apos;psdspecialforwx&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="189" column="17" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="189" column="58" severity="error" message="字符串常量应出现在 equals 比较的左侧。" source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="190" column="15" severity="error" message="第 15 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="191" column="20" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="191" column="58" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="192" column="18" severity="error" message="第 18 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="193" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="199" column="17" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="200" column="15" severity="error" message="第 15 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="206" column="16" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="206" column="33" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="207" column="15" severity="error" message="第 15 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
 <error line="210" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
 <error line="211" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="211" column="54" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="211" column="71" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="214" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="215" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="216" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="217" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="218" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="216" column="17" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="216" column="31" severity="error" message="&apos;)&apos; 前不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="217" column="15" severity="error" message="第 15 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="218" column="58" severity="error" message="&apos;10&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 <error line="219" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="220" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="221" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="223" column="34" severity="error" message="Variable &apos;results&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="225" column="24" severity="error" message="Variable &apos;result1&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="227" column="21" severity="error" message="Variable &apos;strret&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="227" column="30" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="225" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="226" column="17" severity="error" message="第 17 个字符 &apos;}&apos;应该与当前多代码块的下一部分 （if/else-if/else, do/while 或 try/catch/finally）位于同一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="227" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="228" column="15" severity="error" message="第 15 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
 <error line="229" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="230" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="232" column="21" severity="error" message="Variable &apos;dbResult&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="234" column="22" severity="error" message="Variable &apos;retvals&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="236" column="16" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="237" column="14" severity="error" message="&apos;{&apos; at column 14 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="238" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="240" severity="error" message="Comment has incorrect indentation level 13, expected is 16, indentation should be the same level as line 245." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="242" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="243" severity="error" message="Comment has incorrect indentation level 12, expected is 16, indentation should be the same level as line 245." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="246" column="14" severity="error" message="&apos;}&apos; at column 14 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
-<error line="247" column="68" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="248" column="14" severity="error" message="&apos;{&apos; at column 14 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="249" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="250" severity="info" message="switch without &quot;default&quot; clause." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
-<error line="251" column="17" severity="error" message="&apos;{&apos; at column 17 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="253" column="28" severity="warning" message="Avoid nested blocks." source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
-<error line="254" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="257" column="25" severity="error" message="&apos;-2&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="258" column="28" severity="warning" message="Avoid nested blocks." source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
-<error line="259" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="262" column="25" severity="error" message="&apos;-3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="263" column="28" severity="warning" message="Avoid nested blocks." source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
-<error line="264" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="267" column="25" severity="error" message="&apos;-4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="268" column="27" severity="warning" message="Avoid nested blocks." source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="231" column="11" severity="error" message="第 11 个字符 &apos;}&apos;应该与当前多代码块的下一部分 （if/else-if/else, do/while 或 try/catch/finally）位于同一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="232" column="17" severity="error" message="参数： e 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="232" column="27" severity="error" message="变量 &apos;e&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="233" column="11" severity="error" message="第 11 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="234" severity="error" message="Avoid sending stack traces to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="238" column="34" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="239" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="240" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="242" column="31" severity="error" message="变量 &apos;params&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="253" column="24" severity="error" message="变量 &apos;sp&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
 <error line="269" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="272" column="25" severity="error" message="&apos;-5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="273" column="27" severity="warning" message="Avoid nested blocks." source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="270" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="270" column="54" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="270" column="71" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="273" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
 <error line="274" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="277" column="25" severity="error" message="&apos;-6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="278" column="28" severity="warning" message="Avoid nested blocks." source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="275" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="276" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="277" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="278" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
 <error line="279" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="285" column="24" severity="error" message="Variable &apos;strurl3&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="286" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="291" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
-<error line="292" column="16" severity="error" message="Parameter ex should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="292" column="36" severity="error" message="Variable &apos;ex&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="294" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
-<error line="294" column="57" severity="error" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
-<error line="299" column="4" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="299" column="42" severity="error" message="Parameter request should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="299" column="61" severity="error" message="Variable &apos;request&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
-<error line="300" column="3" severity="error" message="&apos;{&apos; at column 3 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="301" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="301" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="302" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="303" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="303" column="109" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="304" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="305" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="306" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="306" column="109" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="307" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="308" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="309" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="309" column="109" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="310" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="311" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="312" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="312" column="109" severity="error" message="Use a single space to separate non-whitespace characters." source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
-<error line="313" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="314" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="315" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="316" column="9" severity="error" message="&apos;{&apos; at column 9 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="317" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="318" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="319" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="320" column="9" severity="error" message="&apos;{&apos; at column 9 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="321" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="322" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="323" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="280" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="282" column="34" severity="error" message="变量 &apos;results&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="284" column="24" severity="error" message="变量 &apos;result1&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="286" column="21" severity="error" message="变量 &apos;strret&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="286" column="30" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="288" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="289" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="291" column="21" severity="error" message="变量 &apos;dbResult&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="293" column="22" severity="error" message="变量 &apos;retvals&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="295" column="16" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="296" column="14" severity="error" message="第 14 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="297" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="299" severity="error" message="注释应与第304行代码同样缩进16个缩进符，而不是13个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="301" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="302" severity="error" message="注释应与第304行代码同样缩进16个缩进符，而不是12个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="305" column="14" severity="error" message="第 14 个字符 &apos;}&apos;应该与当前多代码块的下一部分 （if/else-if/else, do/while 或 try/catch/finally）位于同一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="306" column="68" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="307" column="14" severity="error" message="第 14 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="308" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="309" severity="info" message="Switch 块未定义 default 。" source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="310" column="17" severity="error" message="第 17 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="312" column="28" severity="warning" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="313" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="316" column="25" severity="error" message="&apos;-2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="317" column="28" severity="warning" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="318" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="321" column="25" severity="error" message="&apos;-3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="322" column="28" severity="warning" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="323" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="326" column="25" severity="error" message="&apos;-4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="327" column="27" severity="warning" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="328" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="331" column="25" severity="error" message="&apos;-5&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="332" column="27" severity="warning" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="333" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="336" column="25" severity="error" message="&apos;-6&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="337" column="28" severity="warning" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="338" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="344" column="24" severity="error" message="变量 &apos;strurl3&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="345" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="350" column="9" severity="error" message="第 9 个字符 &apos;}&apos;应该与当前多代码块的下一部分 （if/else-if/else, do/while 或 try/catch/finally）位于同一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="351" column="16" severity="error" message="参数： ex 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="351" column="36" severity="error" message="变量 &apos;ex&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="353" severity="error" message="Avoid sending messages to the console directly. Use a logger object instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="353" column="57" severity="error" message="&apos;)&apos; 前不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="358" column="4" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="358" column="42" severity="error" message="参数： request 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="358" column="61" severity="error" message="变量 &apos;request&apos; 应被声明为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="359" column="3" severity="error" message="第 3 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="360" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="360" column="1" severity="error" message="文件含有制表符 tab （这只是第一例）。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="361" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="362" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="362" column="109" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="363" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="364" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="365" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="365" column="109" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="366" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="367" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="368" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="368" column="109" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="369" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="370" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="371" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="371" column="109" severity="error" message="用一个空格分隔非空白字符。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"/>
+<error line="372" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="373" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="374" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="375" column="9" severity="error" message="第 9 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="376" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="377" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="378" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="379" column="9" severity="error" message="第 9 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="380" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="381" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="382" severity="error" message="Tabs should never be used for indentation. Use spaces instead" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 </file>
 </checkstyle>
